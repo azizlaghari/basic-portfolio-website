@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    text-transform: capitalize;
+}
+nav{
+    display: flex;
+    background-color: cyan;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+nav h1{
+    display: inline-block;
+    height: auto;
+}
+nav ul{
+    display: flex;
+    padding-left: 650px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+/* hero */
+.hero{
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    color: blanchedalmond;
+    width: 100%;
+}
+.hero .image{
+    display: flex;
+    width: 30%;
+    padding: 10px 30px;
+}
+.hero .text{
+    width: 60%;
+    padding-top: 250px;
+    padding-left: 60px;
+}
+.hero  .title{
+    color: cyan;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.hero h1{
+    padding: 10px 0;
+}
+.hero p{
+    padding: 10px 0;
+    padding-bottom: 50px;
+}
+.hero a{
+    background-color: transparent;
+    border: 2px solid cyan;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: cyan;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+.hero a:hover{
+    background-color: cyan;
+    color: white;
+    cursor: pointer;
+}
+/* hero section end */
+
+/* about section start */
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.about .image{
+    width: 50%;
+    display: flex;
+}
+.about img{
+    width: 400px;
+    height: 500px;
+    margin: 50px 50px;
+    border: 5px solid cyan;
+}
+.about .text{
+    width: 50%;
+    margin: 200px;
+    text-align: left;
+}
+.about .text h1{
+    margin: 15px 0;
+}
+.about .text h4{
+    margin: 15px 0;
+}
+.about .text p{
+    line-height: 30px;
+}
+/* about section end */
+
+/* services section start */
+.services
+
+{background-color: rgb(196, 201, 201);
+width: 100%;
+padding: 50px 0;
+text-align: center;
+}
+.services .heading{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.services .main-heading{
+    text-align: center;
+}
+.services h1{
+text-align: center;
+padding: 10px 0;
+}
+.services p{
+    text-align: center;
+}
+.containers{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.services .containers .gd{
+    width: 40%;
+    margin: 20px 20px;
+    padding: 40px 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    border: none;
+    border-radius: 5px;
+}
+.services .gd:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.services > .containers > .wd{
+    width: 40%;
+    margin: 20px 20px;
+    padding: 40px 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    border: none;
+    border-radius: 5px;
+}
+.services .wd:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.services .mm{
+    width: 40%;
+    margin: 20px 20px;
+    padding: 40px 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    border: none;
+    border-radius: 5px;
+}
+.services .mm:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.services .wd2{
+    width: 40%;
+    margin: 20px 20px;
+    padding: 40px 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    border: none;
+    border-radius: 5px;
+}
+.services .wd2:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.services .mg{
+    width: 40%;
+    margin: 20px 20px;
+    padding: 40px 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    border: none;
+    border-radius: 5px;
+}
+.services .mg:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.services .apps{
+    width: 40%;
+    margin: 20px 20px;
+    padding: 40px 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    border: none;
+    border-radius: 5px;
+}
+.services .apps:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/* services section end */
+
+/* freelancer section start */
+.freelancer{
+    background-color: black;
+    color: white;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    text-align: center;
+}
+.freelancer a{
+        background-color: cyan;
+        border: 2px solid cyan;
+        padding: 15px 15px;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+}
+.freelancer a:hover{
+    background-color: transparent;
+    color:cyan;
+    cursor: pointer;
+}
+.freelancer p{
+    padding: 40px 0;
+}
+/* freelancer section end */
+
+/* client section start */
+.client{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+.client h1{
+    padding: 40px 0px;
+}
+.client .client1 img{
+    width: 80px;
+    border-radius: 50%;
+    margin: 15px 500px;
+    box-shadow: 0px 0px 20px gray;
+}
+.client .client1 img:hover{
+    background: black;
+    color: black;
+    cursor: pointer;
+    
+}
+.client .client1{
+    /* width: 50%; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 40px 100px;
+}
+.client .client1 p{
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.client1 q{
+    font-size: 24px;
+}
+/* client section end */
+
+/* work section start */
+.work{
+    background-color: rgb(218, 216, 216);
+}
+.work h1{
+    margin: 30px 0;
+    padding-top: 30px;
+    text-align: center;
+}
+.work p{
+    margin: 30px 0;
+    text-align: center;
+}
+.work .all-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.work .all-images .container img{
+    width: 100%; 
+    
+}
+.all-images .container{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+.work .container{
+    position: relative;
+    width: 40%;
+}
+.work .image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.work .all-images .container .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: cyan;
+}
+.work  .container:hover .overlay{
+    opacity: 70%;
+    cursor: pointer;
+}
+.work .container .text{
+    color: black;
+    font-weight: bolder;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* work section end */
+
+/* blog section start */
+.blog{
+    background-color: black;
+    color: blanchedalmond;
+    width: 100%;
+    /* margin-bottom: 20px; */
+    margin: 40px 0;
+    padding-bottom: 20px;
+}
+.blog h1{
+    text-align: center;
+    padding: 30px 0;
+}
+.blog p{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 22px;
+}
+.blog .card1{
+    margin-top: 20px;
+    border: 1px solid white;
+    width: 80%;
+    margin-left: 10%;
+    background-color: white;
+    color: black;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.blog .card1 img{
+    width: 100%;
+    height: 60%;
+}
+.blog .card1 h2{
+    padding: 5px 10px;
+    color: cyan;
+}
+.blog .card1 p{
+    text-align: left;
+    padding-left: 10px;
+}
+.blog .card1 a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/* blog section end */
+
+/* contact section start */
+.contact{
+    margin-top: 50px;
+}
+.contact h1{
+    text-align: center;
+    margin: 20px 0;
+}
+.contact p{
+    text-align: center;
+    margin: 10px 0;
+}
+.contact .icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* form */
+.contact .message{
+    margin: 30px 0;
+    padding: 30px 30px;
+}
+.contact .message ::placeholder{
+    text-transform: capitalize;
+    padding-left: 10px;
+    
+    
+}
+.contact .name-email{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact form{
+    width: 100%;
+}
+.contact .name{
+    width: 50%;
+    display: flex;
+    padding: 10px 0;
+    margin: 20px 0;
+    box-shadow: 0px 0px 10px gray;
+    border: none;
+    border-radius: 5px;
+}
+.contact .email{
+    display: flex;
+    width: 49%;
+    padding: 10px 0;
+    margin: 20px 0px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 10px gray;
+    border: none;
+    border-radius: 5px;
+}
+.contact .subject{
+    padding: 10px 0;
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0px 0px 10px gray;
+    border: none;
+    border-radius: 5px;
+}
+.contact .messagebox{
+    padding: 10px 0;
+    margin: 20px 0;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0px 0px 10px gray;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact .messagebox::placeholder{
+    text-align: top;
+}
+.contact .messagebtn{
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contact a{
+    background-color: cyan;
+    border: 2px solid cyan;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px gray;
+    border: none;
+    border-radius: 5px;
+}
+.contact a:hover{
+background-color: transparent;
+color:cyan;
+cursor: pointer;
+}
+/* contact section end */
+
+/* footer section start */
+.footer footer{
+    background-color: black;
+    color: rgb(192, 190, 186);
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
